@@ -3,9 +3,66 @@
     width: 50%;
     border: black solid 0.2em;
     border-radius: 1rem;
-    padding: 1rem;
+    padding: 2rem;
+    
 }
 
 #profileCard img {
     width: 100%;
+    border: lightgray solid 0.2em;
+}
+
+img {
+    border-radius: 1rem;
+    border: black solid 0.2em;
+}
+
+body {
+    background-color:antiquewhite;
+
+}
+
+p {
+    font-family: Courier New, Courier, monospace;
+}
+
+nav {
+    justify-self: center;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 50px;
+    
+}
+
+@keyframes colorShift {
+    0% {background-color: antiquewhite;}
+    25% {background-color: lightblue;}
+    50% {background-color: lightgreen;}
+    75% {background-color: lightblue;}
+    100% {background-color: antiquewhite;}
+}
+
+nav a {
+    animation-name: colorShift;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 10px;
+    color: black;
+    font-size: 1.25rem;
+    margin-right: 10px;
+    border-radius: 1rem;
+}
+
+nav a:hover {
+    transform: translateY(-5px);
+}
+
+h1,h2,h3, a {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    text-align: center;
 }
