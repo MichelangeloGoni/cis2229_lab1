@@ -22,9 +22,6 @@ body {
 
 }
 
-p {
-    font-family: Courier New, Courier, monospace;
-}
 
 nav {
     justify-self: center;
@@ -59,10 +56,22 @@ nav a:hover {
     transform: translateY(-5px);
 }
 
-h1,h2,h3, a {
+h1,h2,h3,a,p {
     font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     text-align: center;
+    color: black;
+    background-color: lightgray;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: black solid 0.1em;
+
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    margin-bottom: 10px;
 }
