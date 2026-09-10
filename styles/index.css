@@ -75,3 +75,12 @@ li {
     font-size: 1rem;
     margin-bottom: 10px;
 }
+
+h2, p, li{
+    justify-self: center;
+}
+
+a{
+    display: block;
+    text-align: center;
+}
